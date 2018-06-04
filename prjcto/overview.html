@@ -1,0 +1,417 @@
+﻿<html>
+<head>
+<style>
+    body{
+    margin:0;
+    background-color:f2f2f2;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        
+    }
+
+    .nav{
+        width:100%;
+       
+        height:80px;
+    }
+    
+    ul{
+        list-style:none;
+        padding:0;
+        margin:0;
+        position:absolute;
+    }
+    
+    ul li{
+        float:left;
+        margin-top:40px;
+            color:white;
+    }
+    
+    ul li a{
+        position:relative;
+        left:150px;
+        width:100px;
+        color:black;
+        display:block;
+        text-decoration:none;
+        font-size:15px;
+        text-align:center;
+        padding:7px;
+        border-radius:10px;
+        font-family:Century Gothic;
+    }
+    
+   
+    
+    ul li a:hover{
+        background-color:white;
+        font-weight:bold;
+        border-bottom:solid;
+        cursor:default;
+    }
+    
+    ul li ul{
+        display:none;
+        margin:0;
+        
+    }
+    
+    ul li ul li {
+        float:none;
+        margin-right:50px;
+        margin-top:0px;
+    }
+    
+    ul li:hover ul{
+        display:block;
+        visibility:normal;
+    }   
+    
+    .logo{
+        margin:0;
+        padding:0;
+        position:absolute;
+        top:5px;
+        left:5px;
+    }
+    ul li ul li a{
+        background-color:A2FF33;
+        border:1px solid green;
+    }
+    .footer{
+        position:absolute;
+        background-color:gray;
+        top:290%;
+        width:100%;
+    }  
+    .im{
+        position:relative;
+    }
+
+    .overview2
+    {
+        position:absolute;
+        height:60%;
+        left:15%;
+        top:700px;
+        width:70%;
+    }
+    .overview3
+    {
+        position:absolute;
+        height:60%;
+        left:15%;
+        top:1100px;
+        width:70%;
+    }   
+    .overview4
+    {
+        position:absolute;
+        height:60%;
+        left:15%;
+        top:1500px;
+        width:70%;
+    }
+    .font {
+        font-size:18px;
+        font-family: "Times New Roman";
+    }
+    .d{
+        position:absolute;
+        border:2px solid black;
+        height:50%;
+        width:40%;
+        margin-top: 50px;
+        border-style:dotted;
+        margin-left:100px;
+		float:left;
+		font-family:verdana;
+		padding:5px;
+    }
+
+    .d1{
+        position:absolute;
+        border:2px solid black;
+        height:50%;
+        width:40%;
+        border-style:dotted;
+        margin-top: 50px;
+        margin-left:50%;
+		float:left;
+		font-family:verdana;
+		padding:5px;
+    }
+
+    .d2{
+        position:absolute;
+		border:2px solid black;
+        height:50%;
+        width:40%;
+        margin-top:30%;
+        border-style:dotted;
+        margin-left:100px;
+		float:left;
+		font-family:verdana;
+		padding:5px;
+    }
+
+    .d3{
+        position:absolute;
+        font-family:verdana;
+		padding:5px;
+        border:2px solid black;
+        height:50%;
+        width:40%;
+        border-style:dotted;
+        margin-top:30%;
+        margin-left:50%;
+		float:left;
+    }
+    
+    .d4{
+        position:absolute;
+        font-family:verdana;
+		padding:5px;
+        border:2px solid black;
+        height:50%;
+        width:40%;
+        margin-top:57%;
+        border-style:dotted;
+		margin-left:100px;
+		float:left;
+    }
+    
+    
+    .d5{
+        position:absolute;
+		float:left;
+        border:2px solid black;
+        height:50%;
+        width:40%;
+        border-style:dotted;
+        margin-top:57%;
+		margin-left:50%;
+		font-family:verdana;
+		padding:5px;
+    }
+    
+    .d6{
+        position:absolute;
+        float:left;
+        border:2px solid black;
+        height:55%;
+        width:40%;
+        margin-top:84%;
+        border-style:dotted;
+        margin-left:100px;
+		font-family:verdana;
+		padding:5px;
+    }
+    
+    .d7{
+        position:absolute;
+        float:left;
+        border:2px solid black;
+        height:55%;
+        width:40%;
+        border-style:dotted;
+        margin-top:84%;
+        margin-left:50%;
+		font-family:verdana;
+		padding:5px;
+    }
+    
+    h2 { 
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        color:green;
+        
+    }
+		a footer
+    {
+        text-decoration: none;
+        background: none;
+        color: aqua;
+    }
+	.footer {
+    background-color: gray;
+    text-align: center;
+        height: 300px;
+	margin-top:10%;	
+    }	
+	a:hover
+	{
+		background-color:red;
+		
+		border-bottom:solid;
+		cursor:default;
+	}
+	
+	footer
+    {
+        text-decoration: none;
+        background: none;
+        color: aqua;
+    }
+    </style>
+    
+    </head>
+    <body bgcolor=hsl(160,0,240)>
+<div class="header">
+<a href="home.html"><img src="logo.png" class="logo" height="70px" width="120px"/></a>
+<div class="nav">
+
+<ul>
+
+	<li><a href="home.html">Home</a></li>
+	<li><a href="#">Our Work
+			</a><ul>
+				<li><a href="overview.html">Overview</a></li>
+				<li><a href="education.html">Education</a></li>
+				<li><a href="health1.html">Health</a></li>
+				<li><a href="womenempowerment.html">Women  empowerment</a></li>
+			</ul>
+	</li>
+	
+	<li><a href="#">Campaign
+			</a><ul>
+				<li><a href="ecis.html">Every Child in School</a></li>
+				<li><a href="phf.html">Plate Half-Full</a></li>
+				<li><a href="scf.html">She can  fly</a></li>
+              
+        </ul></li>
+	<li><a href="#">Get Involved</a>
+			<ul>
+				<li><a href="individual_support.html">INDIVIDUAL SUPPORT</a></li>
+				<li><a href="corporate_partnership.html">CORPORATE PARTNERSHIP</a></li>
+				<li><a href="instituional_alliances.html">INSTITUTIONAL ALLIANCES</a></li>
+				
+			</ul>
+	</li>
+	
+	<li><a href="donate.html">Donate Now</a></li>
+	
+</ul>
+</div>
+</div>
+<hr style="border:4px solid green;"> 
+<div style="border: 1px solid green; padding: 10px; margin-top: 03%;margin-left: 100px; margin-right: 100px;font-family: verdana;text-align: center;color:forestgreen;  ">
+<h1>Our Programs</h1></div>
+<p  style="margin-left: 100px;margin-right: 100px;padding: 10px;text-align: justify;">
+&nbsp;&nbsp;&nbsp; <strong style="font-size:25px;">C</strong>hildren are the future of a nation. For an emerging country like India, development of underprivileged children holds the key to the progress of the nation itself, and their education is the cornerstone of this progress. But education for children cannot be achieved without ensuring the welfare of the family – a child can go to school regularly only when the family, particularly the mother is healthy and empowered; the family has decent livelihood opportunities and a steady income.<br><br>
+    Realizing this, Smile Foundation, beginning in the corridors of education, has adopted a lifecycle approach with intensive programmes focused on family health, livelihood and community engagement through women empowerment, which addresses the needs of less privileged children, their families and the larger community.
+</p>
+<div class="d"> <a href="education.html" >
+<h2><center>Education</center></h2>
+<center><img src="o1.jpg"  height="40%" width="40%"></center>
+<p style="font-size:13px;">Mission Education provides basic education and healthcare to underprivileged children, with the belief that education is both the means as well as the end to a better life because it empowers an individual to earn his/her livelihood while also increasing one's awareness on a range of issues; in the process helping him/her evolve as a better citizen.</p>
+
+</div></a>
+	
+	
+	<div class="d1"> <a href="health1.html">
+<h2><center>Healthcare</center></h2>
+<center><img src="oh2.jpg"  height="40%" width="40%"></center>
+<p style="font-size:13px;">Smile Foundation is an Indian
+development organisation directly
+benefitting over 400,000 children
+and families through more than
+200 welfare projects in education,
+health, livelihood and woman
+empowerment spread across
+remote villages and slums in 25
+states in India.</p>
+
+        </div></a>
+
+<div class="d2"> <a href="livelihood.html">
+<h2><center>Livelihood</center></h2>
+<center><img src="Livelihood.jpg"  height="40%" width="40%"></center>
+<p style="font-size:13px; text-align:justify;">
+Smile Twin e-Learning Programme (STeP) evolved as a logical linkage to Mission Education, based on the need to provide employability skills to high school pass-outs and urban underprivileged youth to enhance their prospects of employment in the fast expanding retail, hospitality and service sectors</p>
+
+</div>
+	
+	
+	<div class="d3"> <a href="womenempowerment.html">
+<h2><center>Women Empowerment
+
+</center></h2>
+<center><img src="Women Empowerment.jpg"  height="40%" width="40%"></center>
+<p style="font-size:13px;text-align:justify;">Swabhiman is a programme focusing on girl children and women empowerment. The USP of Swabhiman is its innovative and highly effective approach named the ‘4-S Model’ which means Seeking Healthcare as a Behaviour, Support through Education, Support from Men through Male Involvement, and Sustaining Change in the Community.</p>
+
+</div>
+
+<div class="d4"> <a href="empowering grassroots.html">
+<h2><center>Empowering Grassroots
+</center></h2>
+<center><img src="Empowering Grassroots.jpg"  height="40%" width="40%"></center>
+<p style="font-size:13px;">The growth of the non-profit sector in India, in the last two decades, has been phenomenal. Grassroots NGOs particularly, by engaging directly with the people, are able to participate in the thought-making process of the communities they work with, and thus have the capacity to bring about long-lasting positive change.</p>
+
+</div>
+	
+	
+	<div class="d5"><a href="Child for Child.html">
+<h2><center>Child for Child</center></h2>
+<center><img src="Child for Child.jpg"  height="40%" width="40%"></center>
+<p style="font-size:13px;">Children are the future of a nation. They are the best change agents, be it in the family or the community in which they live. It is therefore crucial to catch them young and inculcate in them feelings of empathy and conscience so that they grow up as responsible individuals.</p>
+
+</div>
+
+<div class="d6"> <a href="Special Support Programme.html">
+<h2><center>Special Support Programme</center></h2>
+<center><img src="Special Support Programme.jpg"  height="40%" width="40%"></center>
+<p style="font-size:13px;">Smile Foundation constantly strives to support and empower individuals, particularly underprivileged children enabling them to meet basic ambitions of their life and realize their potential, make informed choices, resist oppression, fight for rightful existence and facilitate new possibilities and opportunities for them.</p>
+
+</div>
+	
+	
+	<div class="d7"><a href="Disaster Response.html" >
+<h2><center>Disaster Response</center></h2>
+<center><img src="Disaster Response.jpg"  height="40%" width="40%"></center>
+<p style="font-size:13px;">Being a disaster-prone country, India is highly vulnerable to various types of natural calamities due to its geographical positioning. According to the National Disaster Management Authority, Govt. of India, more than 58.6% of the country’s landmass is prone to earthquakes and over 12% is prone to floods; close to 5,700kms out of the 7,516kms long coastline is prone to cyclones and tsunamis; while 68% of its cultivable area is prone to droughts.</p>
+
+</div>
+
+
+
+<div class="footer">
+<p style="float: left; padding:10px; height:50px; margin-right:80%; font-family: verdana;font-size:15px; text-align: justify;">
+<br><br><b>ABOUT US</b><br>
+    Smile Foundation is an Indian development organisation directly	benefitting over 400,000 children and families through more than 200 welfare projects in education,health,livelihood and woman empowerment spread across remote villages and slums in 25 states in India.</P>
+		
+ <div style="margin-left:25%;font-family: verdana;font-size:15px; text-align: justify;clear:both;">
+ <b>Our Work</b><br>
+ <a style="text-decoration: none;color: black;" href="overview.html" target="blank">Overview</a><br>
+ <a style="text-decoration: none;color: black;" href="education.html" target="blank">Education</a><br>
+<a style="text-decoration: none;color: black;" href="health1.html" target="blank">Health</a><br>
+<a style="text-decoration: none;color: black;" href="womenempowerment.html" target="blank">Women Empowerment</a></div>
+         
+    <div style=" margin-left:40%;font-family: verdana;font-size:15px; text-align: justify;margin-top:-200px;clear:both;">
+        <b>Campaign</b><br>      
+        <a style="text-decoration: none;color: black;" href="ecis.html" target="blank">Every child in school</a><br>
+        <a style="text-decoration: none;color: black;" href="phf.html" target="blank">Plate Half full</a><br>
+        <a style="text-decoration: none;color: black;" href="scf.html" target="blank">She can fly</a><br>
+        <br><br><br><b><a style="text-decoration: none;color: black;font-family: verdana;font-size:35px; text-align: justify;" href="donate.html" target="blank">Donate Now</a><br></b>
+    </div>
+    <div style=" margin-left:55%;font-family: verdana;font-size:15px; text-align: justify;margin-top:-200px;clear:both;">
+        <b>Get Involved</b><br>      
+        <a style="text-decoration: none;color: black;" href="individual_support.html" target="blank">Individual Support</a><br>
+        <a style="text-decoration: none;color: black;" href="corporate_partnership.html" target="blank">Corporate Partnership</a><br>
+        <a style="text-decoration: none;color: black;" href="instituional_alliances.html" target="blank">Institutional Alliances</a><br>
+    </div>
+<div  style="margin-left:75%; height:50px;font-family: verdana;font-size:15px; text-align: justify;margin-top: -8%;clear:both;">
+<b>devloped By</b><br>
+	<b>Snehal Panchal Rollno :- 2034 </b><br>
+	<b>Monil Shah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rollno :- 2065 </b><br>
+	<b>Smit Shah  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rollno :- 2069 </b><br>
+</div>
+</div>    
+</body>
+</html>

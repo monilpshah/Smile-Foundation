@@ -1,0 +1,248 @@
+﻿<html>
+<head>
+<title>home</title>
+<style>
+
+	body
+	{
+		margin:0;
+		background-color:f2f2f2;
+	}
+	.nav
+	{
+		width:100%;
+		height:80px;
+	}
+	ul
+	{
+		list-style:none;
+		padding:0;
+		margin:0;
+		position:absolute;
+	}
+	ul li
+	{
+		float:left;
+		margin-top:40px;
+		color:white;
+	}
+	ul li a
+	{
+		position:relative;
+		left:150px;
+		width:100px;
+		color:black;
+		display:block;
+		text-decoration:none;
+		font-size:15px;
+		text-align:center;
+		padding:7px;
+		border-radius:10px;
+		font-family:Century Gothic;
+	}
+	a:hover
+	{
+		background-color:white;
+		font-weight:bold;
+		border-bottom:solid;
+		cursor:default;
+	}
+	ul li ul
+	{
+		display:none;
+		margin:0;
+	}
+	ul li ul li 
+	{
+		float:none;
+		margin-right:50px;
+		margin-top:0px;
+	}
+
+	ul li:hover ul
+	{
+		color:yellow;
+		display:block;
+		visibility:normal;
+	}
+	.logo
+	{
+		margin:0;
+		padding:0;
+		position:absolute;
+		top:5px;
+		left:5px;
+	}
+
+
+	.mySlides 
+	{
+		display:none;
+	}
+
+	ul li ul li a
+	{
+		background-color:A2FF33;
+		border:1px solid green;
+	}
+	.footer {
+    background-color: gray;
+    text-align: center;
+        height: 300px;
+	padding-top:10px;
+
+    }
+	.im
+	{
+		position:relative;
+	}
+	.videotext
+	{
+		margin-right:40%;
+		margin-top:-27%;
+		text-align:justify;
+		color:black;
+		padding:10px;
+		font-family:arial;
+		font-size:20px;
+		font-stretch:10px;
+	}
+	.slide
+	{
+		width:100%;
+	}
+	.pad
+	{
+		padding:30px;
+	}
+    a footer
+    {
+        text-decoration: none;
+        background: none;
+        color: aqua;
+    }
+</style>
+
+</head>
+<body>
+<div class="header">
+<a href="home.html"><img src="logo.png" class="logo" height="70px" width="120px"/></a>
+<div class="nav">
+
+<ul>
+
+	<li><a href="home.html">Home</a></li>
+	<li><a href="#">Our Work
+			</a><ul>
+				<li><a href="overview.html">Overview</a></li>
+				<li><a href="education.html">Education</a></li>
+				<li><a href="health1.html">Health</a></li>
+				<li><a href="womenempowerment.html">Women  empowerment</a></li>
+			</ul>
+	</li>
+	
+	<li><a href="#">Campaign
+			</a><ul>
+				<li><a href="ecis.html">Every Child in School</a></li>
+				<li><a href="phf.html">Plate Half-Full</a></li>
+				<li><a href="scf.html">She can  fly</a></li>
+              
+        </ul></li>
+	<li><a href="#">Get Involved</a>
+			<ul>
+				<li><a href="individual_support.html">INDIVIDUAL SUPPORT</a></li>
+				<li><a href="corporate_partnership.html">CORPORATE PARTNERSHIP</a></li>
+				<li><a href="instituional_alliances.html">INSTITUTIONAL ALLIANCES</a></li>
+				
+			</ul>
+	</li>
+	
+	<li><a href="donate.html">Donate Now</a></li>
+	
+</ul>
+</div>
+</div>
+<hr style="border:4px solid green;">
+
+	<div class="slide" style="max-width:1500px">
+
+  <img class="mySlides" src="homepics\home_banner1.jpg" style="width:100%">
+  <img class="mySlides" src="homepics\home_banner2.jpg" style="width:100%">
+  <img class="mySlides" src="homepics\home_banner3.jpg" style="width:100%">
+  
+	</div>
+	<script>
+	
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+    
+    
+<br><br><div style="margin-left: 65%;">
+    <video width="500" height="400" controls>
+  <source src="All_Human_Beings_are_Same_–_The_Dalai_Lama.mp4" type="video/mp4">
+</video></div>
+
+<div class="videotext">
+	<h1>About Smile Foundation</h1>
+	
+	<p>Smile Foundation is an NGO in India directly benefitting over 600,000 children and their families every year, through more than 250 live welfare projects on education, healthcare, livelihood and women empowerment, in over 950 remote villages and slums across 25 states of India.
+
+Education is both the means as well as the end to a better life: the means because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behaviour to understanding one's rights – and in the process help him/her evolve as a better citizen.
+
+Doubtless, education is the most powerful catalyst for social transformation. But child education cannot be done in isolation. A child will go to school only if the family, particularly the mother, is assured of healthcare and empowered. Moreover, when an elder sibling is relevantly skilled to be employable and begins earning, the journey of empowerment continues beyond the present generation.</p>
+
+</div>
+
+<img  src="homepics\home1.jpg" style="width:100%;">
+    
+    
+   
+<div class="footer">
+<p style="float: left; padding:10px; height:50px; margin-right:80%; font-family: verdana;font-size:15px; text-align: justify;">
+<br><br><b>ABOUT US</b><br>
+    Smile Foundation is an Indian development organisation directly	benefitting over 400,000 children and families through more than 200 welfare projects in education,health,livelihood and woman empowerment spread across remote villages and slums in 25 states in India.</P>
+		
+ <div style="margin-left:25%;font-family: verdana;font-size:15px; text-align: justify;clear:both;">
+ <b>Our Work</b><br>
+ <a style="text-decoration: none;color: black;" href="overview.html" target="blank">Overview</a><br>
+ <a style="text-decoration: none;color: black;" href="education.html" target="blank">Education</a><br>
+<a style="text-decoration: none;color: black;" href="health1.html" target="blank">Health</a><br>
+<a style="text-decoration: none;color: black;" href="womenempowerment.html" target="blank">Women Empowerment</a></div>
+         
+    <div style=" margin-left:40%;font-family: verdana;font-size:15px; text-align: justify;margin-top:-200px;clear:both;">
+        <b>Campaign</b><br>      
+        <a style="text-decoration: none;color: black;" href="ecis.html" target="blank">Every child in school</a><br>
+        <a style="text-decoration: none;color: black;" href="phf.html" target="blank">Plate Half full</a><br>
+        <a style="text-decoration: none;color: black;" href="scf.html" target="blank">She can fly</a><br>
+        <br><br><br><b><a style="text-decoration: none;color: black;font-family: verdana;font-size:35px; text-align: justify;" href="donate.html" target="blank">Donate Now</a><br></b>
+    </div>
+    <div style=" margin-left:55%;font-family: verdana;font-size:15px; text-align: justify;margin-top:-200px;clear:both;">
+        <b>Get Involved</b><br>      
+        <a style="text-decoration: none;color: black;" href="individual_support.html" target="blank">Individual Support</a><br>
+        <a style="text-decoration: none;color: black;" href="corporate_partnership.html" target="blank">Corporate Partnership</a><br>
+        <a style="text-decoration: none;color: black;" href="instituional_alliances.html" target="blank">Institutional Alliances</a><br>
+    </div>
+<div  style="margin-left:75%; height:50px;font-family: verdana;font-size:15px; text-align: justify;margin-top: -8%;clear:both;">
+<b>devloped By</b><br>
+	<b>Snehal Panchal Rollno :- 2034 </b><br>
+	<b>Monil Shah &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rollno :- 2065 </b><br>
+	<b>Smit Shah  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rollno :- 2069 </b><br>
+</div>
+</div>
+
+
+</body>
+</html>
